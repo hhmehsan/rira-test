@@ -1,7 +1,7 @@
 const vm = Vue.createApp({
     data(){
         return{
-            counter:0 ,
+            counter:0,
         }
     },
     methods:{
