@@ -6,7 +6,10 @@
     <title>rira-test</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <p>{{ counter }}</p>
+        <button @click="increaseCounter" > Increase the number </button>
+    </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
 </body>
