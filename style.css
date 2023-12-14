@@ -1,0 +1,35 @@
+[v-cloak]{
+    display:none
+}
+.container{
+    margin:20% 0;
+    display:flex;
+    flex-direction:column;
+}
+.number{
+    font-size:40px;
+    text-align:center;
+    font-family: "Inter UI",sans-serif;
+    
+}
+.btn {
+    background-color:#0284c7;
+    width:14rem;
+    height:3rem;
+    margin:50px auto;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+}
+.btn:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
