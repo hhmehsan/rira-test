@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rira-test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app">
-        <p>{{ counter }}</p>
-        <button @click="increaseCounter" > Increase the number </button>
+    <div id="app" v-cloak>
+        <div class="container">
+            <p class="number">{{ counter }}</p>
+            <button class="btn" @click="increaseCounter" > Increase the number </button>
+        </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
